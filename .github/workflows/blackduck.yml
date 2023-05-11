@@ -1,9 +1,7 @@
 name: CI
 on:
   push:
-    branches: [ dev, prerna]
-    tags:
-    - dev
+    branches: [ 'dev', 'prerna']
   pull_request:
     #branches: [ "master" ]
     branches:
