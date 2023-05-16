@@ -1,11 +1,11 @@
 name: CI
 on:
   push:
-    branches: [ 'prerna']
+    branches: [ 'dev']
   pull_request:
     #branches: [ "master" ]
     branches:
-      - master
+      - dev
      # - "dev"
     paths:
       - ".github/workflows/blackduck.yaml"
