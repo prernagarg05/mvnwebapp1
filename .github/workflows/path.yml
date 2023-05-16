@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-    - "prerna"
+    - "dev"
   #pull_request:
     #branches: [ "master" ]
    # branches:
