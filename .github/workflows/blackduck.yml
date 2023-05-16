@@ -5,8 +5,10 @@ on:
   pull_request:
     #branches: [ "master" ]
     branches:
-      #- master
-      - "dev"
+      - master
+     # - "dev"
+    paths:
+      - ".github/workflows/blackduck.yaml"
       #- dev12333
   workflow_dispatch:
 
