@@ -1,0 +1,4 @@
+on:
+  push:
+    paths:
+      - 'mvnwebapp1/.github/workflows/blackduck.yml'
