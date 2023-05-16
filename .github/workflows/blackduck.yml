@@ -2,9 +2,9 @@ name: CI
 on:
   push:
     branches: [ "master","prerna","dev"]
-  pull_request:
+  #pull_request:
     #branches: [ "master" ]
-    branches: [ "master","prerna","dev"]
+   # branches: [ "master","prerna","dev"]
      # - "dev"sadasdas
     
   workflow_dispatch:
