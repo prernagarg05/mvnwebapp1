@@ -1,4 +1,9 @@
 on:
   push:
+    branches: [ 'dev']
+  pull_request:
+    #branches: [ "master" ]
+    branches:
+      - dev
     paths:
       - 'mvnwebapp1/.github/workflows/blackduck.yml'
