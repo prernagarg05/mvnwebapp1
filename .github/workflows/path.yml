@@ -1,10 +1,10 @@
 on:
   push:
     branches:
-    - "dev"
-  pull_request:
+    - "prerna"
+  #pull_request:
     #branches: [ "master" ]
-    branches:
-      - "master"
+   # branches:
+   #   - "master"
     paths:
       - 'mvnwebapp1/.github/workflows/blackduck.yml'
