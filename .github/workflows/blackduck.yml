@@ -2,11 +2,11 @@ name: CI
 on:
   push:
     #branches: [ 'dev', 'prerna']
-    branches: [ "master","prerna"]
-  pull_request:
+    branches: [ "security"]
+  #pull_request:
     #branches: [ "master" ]
-    branches:
-      - master
+   # branches:
+   #   - security
      # - "dev"
     #paths:
      # - ".github/workflows/blackduck.yaml"
@@ -28,7 +28,7 @@ jobs:
           detect-version: "7.12.1"
           
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@master
     - name: Set up Java 11
       uses: actions/setup-java@v2
       with:
